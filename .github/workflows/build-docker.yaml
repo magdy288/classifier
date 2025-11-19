@@ -6,10 +6,10 @@ jobs:
     publish_images:
         runs-on: ubuntu-latest
         steps:
-            name: checkout
+           - name: checkout
             uses: actions/checkout@v4
-            name: build image
+           - name: build image
             run: docker build -t crypto-classifier2:latest
-            name: push image to docker hub
+           - name: push image to docker hub
             run: |
                 docker push crypto-classifier2:latest
