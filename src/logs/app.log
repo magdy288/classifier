@@ -1,0 +1,51 @@
+2025-11-18 11:14:47.534 | INFO     | __main__:main:8 - Running the application...
+2025-11-18 11:14:47.535 | INFO     | model.model_service:load_model:14 - Checking the existance of model config file at model\models/rf_v2
+2025-11-18 11:14:47.535 | WARNING  | model.model_service:load_model:18 - Model at model\models/rf_v2 was not found -> BUILDING rf_v2
+2025-11-18 11:14:51.452 | INFO     | model.pipeline.collection:collect_data:32 - Collected 986 rows of data for SOLUSDT at 1m timeframe.
+2025-11-18 11:14:51.483 | INFO     | model.pipeline.model:get_x_y:33 - defining X and Y variables. 
+X vars: ['High', 'Low', 'Open', 'Volume', 'Close', 'CCI', 'CMO']
+y var: Target
+2025-11-18 11:14:51.486 | INFO     | model.pipeline.model:split_train_test:38 - Splitting data into train and test sets
+2025-11-18 11:14:51.488 | INFO     | model.pipeline.model:train_model:43 - Training a model with hyperparameters
+2025-11-18 11:15:42.071 | INFO     | model.pipeline.model:evaluate_model:61 - Evaluating model performance. SCORE=0.4898989898989899
+2025-11-18 11:15:42.099 | INFO     | model.pipeline.model:save_model:66 - Saving a model to a directory: model\models/rf_v2
+2025-11-18 11:15:42.120 | INFO     | model.model_service:load_model:21 - Model rf_v2 exists -> loading model configuration file
+2025-11-18 11:15:46.227 | INFO     | model.pipeline.collection:collect_data:32 - Collected 986 rows of data for SOLUSDT at 1m timeframe.
+2025-11-18 11:15:46.259 | INFO     | model.model_service:predict:25 - Making prediction
+2025-11-18 11:15:46.283 | INFO     | __main__:main:21 - Prediction = [0]
+2025-11-18 11:34:15.104 | INFO     | __main__:main:8 - Running the application...
+2025-11-18 11:34:15.104 | INFO     | model.model_service:load_model:14 - Checking the existance of model config file at model\models/rf_v2
+2025-11-18 11:34:15.104 | INFO     | model.model_service:load_model:21 - Model rf_v2 exists -> loading model configuration file
+2025-11-18 11:34:20.758 | INFO     | model.pipeline.collection:collect_data:32 - Collected 986 rows of data for BTCUSDT at 1m timeframe.
+2025-11-18 11:34:20.790 | INFO     | model.model_service:predict:25 - Making prediction
+2025-11-18 11:34:20.813 | INFO     | __main__:main:21 - Prediction = [0]
+2025-11-18 11:35:35.409 | INFO     | __main__:main:8 - Running the application...
+2025-11-18 11:35:35.409 | INFO     | model.model_service:load_model:14 - Checking the existance of model config file at model\models/rf_v2
+2025-11-18 11:35:35.409 | INFO     | model.model_service:load_model:21 - Model rf_v2 exists -> loading model configuration file
+2025-11-18 11:35:38.881 | INFO     | model.pipeline.collection:collect_data:32 - Collected 986 rows of data for BTCUSDT at 1m timeframe.
+2025-11-18 11:35:38.912 | INFO     | model.model_service:predict:25 - Making prediction
+2025-11-18 11:35:38.935 | INFO     | __main__:main:21 - Prediction = [0]
+2025-11-18 11:59:18.235 | INFO     | __main__:main:8 - Running the application...
+2025-11-18 11:59:18.236 | INFO     | model.model_service:load_model:14 - Checking the existance of model config file at model\models/rf_v2
+2025-11-18 11:59:18.236 | INFO     | model.model_service:load_model:30 - Model rf_v2 exists -> loading model configuration file
+2025-11-18 11:59:22.198 | INFO     | model.pipeline.collection:collect_data:32 - Collected 986 rows of data for BTCUSDT at 1m timeframe.
+2025-11-18 11:59:22.228 | INFO     | model.model_service:predict:39 - Making prediction
+2025-11-18 11:59:22.251 | INFO     | __main__:main:22 - Prediction = [0]
+2025-11-18 12:03:48.011 | INFO     | __main__:main:8 - Running the application...
+2025-11-18 12:03:48.011 | INFO     | model.model_service:load_model:16 - Checking the existance of model config file at model\models/rf_v2
+2025-11-18 12:03:48.011 | INFO     | model.model_service:load_model:32 - Model rf_v2 exists -> loading model configuration file
+2025-11-18 12:03:51.819 | INFO     | model.pipeline.collection:collect_data:32 - Collected 986 rows of data for ETHUSDT at 1h timeframe.
+2025-11-18 12:03:51.852 | INFO     | model.model_service:predict:41 - Making prediction
+2025-11-18 12:03:51.875 | INFO     | __main__:main:22 - Prediction = [0]
+2025-11-18 12:04:40.611 | INFO     | __main__:main:11 - Running the application...
+2025-11-18 12:04:40.611 | INFO     | model.model_service:load_model:16 - Checking the existance of model config file at model\models/rf_v2
+2025-11-18 12:04:40.611 | INFO     | model.model_service:load_model:32 - Model rf_v2 exists -> loading model configuration file
+2025-11-18 12:04:44.304 | INFO     | model.pipeline.collection:collect_data:32 - Collected 986 rows of data for ETHUSDT at 1h timeframe.
+2025-11-18 12:04:44.337 | INFO     | model.model_service:predict:41 - Making prediction
+2025-11-18 12:04:44.357 | INFO     | __main__:main:25 - Prediction = [0]
+2025-11-18 12:08:29.995 | INFO     | __main__:main:17 - Running the application...
+2025-11-18 12:08:29.995 | INFO     | model.model_service:load_model:16 - Checking the existance of model config file at model\models/rf_v2
+2025-11-18 12:08:29.995 | INFO     | model.model_service:load_model:32 - Model rf_v2 exists -> loading model configuration file
+2025-11-18 12:08:34.261 | INFO     | model.pipeline.collection:collect_data:32 - Collected 986 rows of data for TONUSDT at 5m timeframe.
+2025-11-18 12:08:34.291 | INFO     | model.model_service:predict:41 - Making prediction
+2025-11-18 12:08:34.312 | INFO     | __main__:main:37 - Prediction = [1]
