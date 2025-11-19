@@ -10,7 +10,7 @@ jobs:
           - name: checkout
             uses: actions/checkout@v4
           - name: build image
-            run: docker build -t magdy288/crypto-classifier2:latest
+            run: docker build -t magdy288/crypto-classifier2:latest .
           - name: push image to docker hub
             run: |
                 docker login -u magdy288 -p ${{ secrets.DOCKER_HUB_TOKEN }}
